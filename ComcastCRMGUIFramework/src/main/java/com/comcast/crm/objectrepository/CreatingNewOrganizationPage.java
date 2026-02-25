@@ -28,7 +28,8 @@ public class CreatingNewOrganizationPage
 	@FindBy(id="phone")
 	private WebElement contactEdit;
 	
-	
+	@FindBy(name="org")
+	private WebElement org;
 	
 	public WebDriver getDriver() {
 		return driver;

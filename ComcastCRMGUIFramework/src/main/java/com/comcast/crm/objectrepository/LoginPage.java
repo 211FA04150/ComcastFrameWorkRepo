@@ -27,6 +27,10 @@ public class LoginPage extends WebDriverUtility
 	@FindBy(id="submitButton")
 	private WebElement submitButton; //3:Object initialization
 
+
+	@FindBy(name="org")
+	private WebElement org;
+	
 	//4.Object Encapsulation
 	public WebElement getUsernameEdit() {
 		return usernameEdit;
